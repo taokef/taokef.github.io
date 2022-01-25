@@ -64,7 +64,7 @@ window.onload = (function () {
         $button.removeClass('spin').addClass('disabled');
         $spinner.addClass('wheel_spinner_animated_1').removeClass('wheel_spinner_animated');
         setTimeout(function () {
-            localStorage.currentSpin = 'HTMLC_1257_spin';
+            //localStorage.currentSpin = 'HTMLC_1257_spin';
             $popupOverlay.fadeIn();
             $popupWindow.fadeIn();
         }, 4500);

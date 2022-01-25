@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'GothamProMed';
-  src: url("../fonts/GothamProMed.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProMed.otf") format("opentype"), url("../fonts/GothamProMed.woff") format("woff"), url("../fonts/GothamProMed.ttf") format("truetype");
+  src: url("https://taokef.github.io/wheel777/fonts/GothamProMed.eot?#iefix") format("embedded-opentype"), url("https://taokef.github.io/wheel777/fonts/GothamProMed.otf") format("opentype"), url("https://taokef.github.io/wheel777/fonts/GothamProMed.woff") format("woff"), url("https://taokef.github.io/wheel777/fonts/GothamProMed.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'GothamProBold';
-  src: url("../fonts/GothamProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBold.otf") format("opentype"), url("../fonts/GothamProBold.woff") format("woff"), url("../fonts/GothamProBold.ttf") format("truetype");
+  src: url("https://taokef.github.io/wheel777/fonts/GothamProBold.eot?#iefix") format("embedded-opentype"), url("https://taokef.github.io/wheel777/fonts/GothamProBold.otf") format("opentype"), url("https://taokef.github.io/wheel777/fonts/GothamProBold.woff") format("woff"), url("https://taokef.github.io/wheel777/fonts/GothamProBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'GothamProBlack';
-  src: url("../fonts/GothamProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBold.otf") format("opentype"), url("../fonts/GothamProBold.woff") format("woff"), url("../fonts/GothamProBold.ttf") format("truetype");
+  src: url("https://taokef.github.io/wheel777/fonts/GothamProBold.eot?#iefix") format("embedded-opentype"), url("https://taokef.github.io/wheel777/fonts/GothamProBold.otf") format("opentype"), url("https://taokef.github.io/wheel777/fonts/GothamProBold.woff") format("woff"), url("https://taokef.github.io/wheel777/fonts/GothamProBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 * {
@@ -43,7 +43,7 @@ html {
   line-height: 1.15;
   -webkit-tap-highlight-color: transparent;
   font-size: 10px;
-  background: #000217 url("../img/bg-desk.jpg") 50% 0 no-repeat;
+  background: #000217 url("https://taokef.github.io/wheel777/img/bg-desk.jpg") 50% 0 no-repeat;
   background-size: 192em 122.6em; }
 
 .blur_wrap {
@@ -240,7 +240,7 @@ html .hu {
       .lang_switcher_outer .lang_switcher .curr_lang em {
         margin: 0 0.5em 0 0; }
   .lang_switcher_outer i {
-    background: url("../img/lang-arr.png") 0 0 no-repeat;
+    background: url("https://taokef.github.io/wheel777/img/lang-arr.png") 0 0 no-repeat;
     background-size: contain;
     width: 1.3em;
     position: absolute;
@@ -264,7 +264,7 @@ html .hu {
   display: inline-block;
   width: 1.6em;
   height: 1.6em;
-  background-image: url("../img/flags.png");
+  background-image: url("https://taokef.github.io/wheel777/img/flags.png");
   background-size: 1.6em 17.6em;
   margin: 0 0.7em 0 1.1em;
   position: relative;
@@ -389,7 +389,7 @@ html.fr .lang_switcher_outer .lang_switcher .curr_lang span {
   position: relative; }
 
 .wheel_winframe {
-  background: url("../img/wheel-win-frame.png") 0 0 no-repeat;
+  background: url("https://taokef.github.io/wheel777/img/wheel-win-frame.png") 0 0 no-repeat;
   width: 9.7em;
   height: 10.9em;
   background-size: contain;
@@ -423,7 +423,7 @@ html.en #spinner_en.hidden {
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
-  background: url("../img/wheel-btn.png") 50% 0 no-repeat;
+  background: url("https://taokef.github.io/wheel777/img/wheel-btn.png") 50% 0 no-repeat;
   background-size: 17.8em 35.6em;
   width: 17.8em;
   height: 17.8em;
@@ -522,7 +522,7 @@ html.ro .wheel_btn, html.fi .wheel_btn, html.hu .wheel_btn {
       content: '';
       left: 0;
       top: 0;
-      background-image: url("../img/icons.png");
+      background-image: url("https://taokef.github.io/wheel777/img/icons.png");
       background-size: 7.6em 2.1em;
       font-size: 71.45%; }
 
@@ -559,7 +559,7 @@ html.ro .wheel_btn, html.fi .wheel_btn, html.hu .wheel_btn {
 
 .popup_window {
   display: none;
-  background: url("../img/popup-bg.png") 0 0 no-repeat;
+  background: url("https://taokef.github.io/wheel777/img/popup-bg.png") 0 0 no-repeat;
   width: 75.7em;
   height: 72.8em;
   position: absolute;
@@ -706,7 +706,7 @@ html.ro .wheel_btn, html.fi .wheel_btn, html.hu .wheel_btn {
 @media (max-width: 1155px) and (orientation: portrait) {
   .page {
     font-size: 10px;
-    background: #000217 url("../img/bg-mob.jpg") 50% 0 no-repeat;
+    background: #000217 url("https://taokef.github.io/wheel777/img/bg-mob.jpg") 50% 0 no-repeat;
     background-size: 1155px; }
 
   #container {
