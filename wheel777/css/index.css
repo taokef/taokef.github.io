@@ -405,10 +405,15 @@ html.fr .lang_switcher_outer .lang_switcher .curr_lang span {
   height: 60.7em;
   z-index: 2;
   transform: rotate(-50deg); }
-  .wheel_spinner.wheel_spinner_animated {
-    animation: 2s spinner ease-in-out infinite; }
-  .wheel_spinner.wheel_spinner_animated_1 {
-    animation: 4s spinTo1 ease-in-out forwards; }
+  .wheel_spinner.wheel_spinner_animated {animation: 2s spinner ease-in-out infinite; }
+  .wheel_spinner.wheel_spinner_animated_1 {animation: 4s spinTo1 ease-in-out forwards;}
+  .wheel_spinner.wheel_spinner_animated_2 {animation: 4s spinTo2 ease-in-out forwards;}
+  .wheel_spinner.wheel_spinner_animated_3 {animation: 4s spinTo3 ease-in-out forwards;}
+  .wheel_spinner.wheel_spinner_animated_4 {animation: 4s spinTo4 ease-in-out forwards;}
+  .wheel_spinner.wheel_spinner_animated_5 {animation: 4s spinTo5 ease-in-out forwards;}
+  .wheel_spinner.wheel_spinner_animated_6 {animation: 4s spinTo6 ease-in-out forwards;}
+  .wheel_spinner.wheel_spinner_animated_7 {animation: 4s spinTo7 ease-in-out forwards;}
+  .wheel_spinner.wheel_spinner_animated_8 {animation: 4s spinTo8 ease-in-out forwards;}
   .wheel_spinner.ca-en {
     display: none; }
 
@@ -447,21 +452,61 @@ html.ro .wheel_btn, html.fi .wheel_btn, html.hu .wheel_btn {
     font-size: 2.2em; }
 
 @keyframes spinner {
-  0% {
-    transform: rotate(-53deg); }
-  50% {
-    transform: rotate(-46deg); }
-  100% {
-    transform: rotate(-53deg); } }
+  0% {transform: rotate(-53deg); }
+  50% {transform: rotate(-46deg); }
+  100% {transform: rotate(-53deg); } 
+}
+
 @keyframes spinTo1 {
-  0% {
-    transform: rotate(-53deg); }
-  70% {
-    transform: rotate(724deg); }
-  80% {
-    transform: rotate(714deg); }
-  100% {
-    transform: rotate(720deg); } }
+	0% {transform: rotate(-53deg);} 
+	70% {transform: rotate(724deg);} 
+	80% {transform: rotate(714deg);}
+	100%{transform: rotate(720deg);}
+}
+@keyframes spinTo2 {
+	0% {transform: rotate(-53deg);} 
+	70% {transform: rotate(769deg);} 
+	80% {transform: rotate(759deg);}
+	100%{transform: rotate(765deg);}
+}
+@keyframes spinTo3 {
+	0% {transform: rotate(-53deg);} 
+	70% {transform: rotate(814deg);} 
+	80% {transform: rotate(804deg);}
+	100%{transform: rotate(810deg);}
+}
+@keyframes spinTo4 {
+	0% {transform: rotate(-53deg);} 
+	70% {transform: rotate(859deg);} 
+	80% {transform: rotate(849deg);}
+	100%{transform: rotate(855deg);}
+}
+@keyframes spinTo5 {
+	0% {transform: rotate(-53deg);} 
+	70% {transform: rotate(904deg);} 
+	80% {transform: rotate(894deg);}
+	100%{transform: rotate(900deg);}
+}
+@keyframes spinTo6 {
+	0% {transform: rotate(-53deg);} 
+	70% {transform: rotate(949deg);} 
+	80% {transform: rotate(939deg);}
+	100%{transform: rotate(945deg);}
+}
+@keyframes spinTo7 {
+	0% {transform: rotate(-53deg);} 
+	70% {transform: rotate(994deg);} 
+	80% {transform: rotate(984deg);}
+	100%{transform: rotate(990deg);}
+}
+@keyframes spinTo8 {
+	0% {transform: rotate(-53deg);} 
+	70% {transform: rotate(679deg);} 
+	80% {transform: rotate(669deg);}
+	100%{transform: rotate(675deg);}
+}
+
+
 #footer {
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 300; }

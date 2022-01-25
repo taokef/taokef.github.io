@@ -60,30 +60,6 @@ window.onload = (function () {
         }
     });
 
-    function spin() {
-        $button.removeClass('spin').addClass('disabled');
-        $spinner.addClass('wheel_spinner_animated_1').removeClass('wheel_spinner_animated');
-        setTimeout(function () {
-            //localStorage.currentSpin = 'HTMLC_1257_spin';
-            $popupOverlay.fadeIn();
-            $popupWindow.fadeIn();
-        }, 4500);
-    }
-
-
-    switch(localStorage.currentSpin) {
-        case 'HTMLC_1257_spin':
-            $popupOverlay.fadeIn();
-            $popupWindow.fadeIn();
-            $spinner.removeClass('wheel_spinner_animated').css('transform','rotate(720deg)');
-            $button.removeClass('spin').addClass('disabled');
-            break;
-        default:
-            break
-    }
-
-
-
 });
 
 
