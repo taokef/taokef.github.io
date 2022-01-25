@@ -189,13 +189,30 @@ $spinner = $('.wheel_spinner'),
 $popupOverlay = $('.popup_overlay'),
 $popupWindow= $('.popup_window');
 function spin() {
-	var win=2;
+	var win=Math.floor(Math.random()*8)+1;
+	if(win===4)
+		win=8;
 	$button.removeClass('spin').addClass('disabled');
 	$spinner.addClass('wheel_spinner_animated_'+win).removeClass('wheel_spinner_animated');
-	/*setTimeout(function () {
+	var to=4500;
+	if(win===8)
+		to=4000;
+	setTimeout(function () {
+		if(win===8)
+		{
+			$button.addClass('spin').removeClass('disabled');
+			$spinner.removeClass('wheel_spinner_animated_'+win).addClass('wheel_spinner_animated');
+			return;
+		}
+		else if(win===6)
+		{
+			$button.addClass('spin').removeClass('disabled');
+			$spinner.removeClass('wheel_spinner_animated_'+win).addClass('wheel_spinner_animated');
+			return;
+		}
 		$popupOverlay.fadeIn();
 		$popupWindow.fadeIn();
-	}, 4500);*/
+	},to);
 }
 </script>
 

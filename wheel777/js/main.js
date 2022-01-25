@@ -24,7 +24,8 @@ window.onload = (function () {
             'hu' : 'hu',
             'default' : 'en'
         };
-        var country = $html.attr('data-country'),
+        //var country = $html.attr('data-country'),
+		var country=navigator.language.slice(0,2).toLowerCase();
             lang = countryToLang[country] || countryToLang['default'];
         localStorage.lang = lang;
     }
